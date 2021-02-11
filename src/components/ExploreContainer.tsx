@@ -3,10 +3,10 @@ import './ExploreContainer.css';
 interface ContainerProps { }
 
 const ExploreContainer: React.FC<ContainerProps> = () => {
+  var hello = "hello world"; // stored hello world in the variable hello
   return (
     <div className="container">
-      <strong>Ready to create an app?</strong>
-      <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+      <h1>{hello}</h1>
     </div>
   );
 };
